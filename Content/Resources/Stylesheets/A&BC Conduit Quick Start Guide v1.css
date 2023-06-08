@@ -1,0 +1,891 @@
+/*<meta />*/
+
+/*<meta sourceDocument="C:\Users\A844683\OneDrive - CVS Health\A&BC Conduit Quick Start Guide v1.docx" />*/
+
+p
+{
+	margin-top: 7pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 0pt;
+}
+
+ol
+{
+	margin-top: 7pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 0pt;
+}
+
+ul
+{
+	margin-top: 7pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 0pt;
+}
+
+li
+{
+	margin-top: 7pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 0pt;
+}
+
+td
+{
+	margin-top: 7pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+	vertical-align: top;
+}
+
+p.Title
+{
+	color: #000000;
+	margin-top: 0pt;
+	font-family: 'CVS Health Sans';
+	font-weight: bold;
+	letter-spacing: -1pt;
+	font-size: 42pt;
+}
+
+p.TitleSubhead
+{
+	margin-top: 19pt;
+	font-family: Arial;
+	color: black;
+	font-size: 14pt;
+}
+
+p.SectionTitle
+{
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: -1pt;
+	margin-top: 36pt;
+	font-family: 'CVS Health Sans';
+	font-size: 28pt;
+}
+
+p.TOCHeading
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 12pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 10;
+	font-family: 'CVS Health Sans';
+	font-weight: normal;
+	color: #760000;
+	font-size: 16pt;
+}
+
+p.TOC2
+{
+	margin-top: 7pt;
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 5pt;
+	margin-left: 12pt;
+	font-family: Arial;
+}
+
+p.TOC3
+{
+	margin-top: 7pt;
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 5pt;
+	margin-left: 24pt;
+	font-family: Arial;
+}
+
+p.TOC1
+{
+	margin-top: 7pt;
+	color: #000000;
+	font-size: 12pt;
+	margin-bottom: 5pt;
+	font-family: Arial;
+}
+
+p.paragraph
+{
+	font-size: 12pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-family: 'Times New Roman';
+	color: black;
+}
+
+p.Heading1Revised
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 0pt;
+	margin-bottom: 18pt;
+	font-weight: bold;
+	color: #CC0000;
+	font-size: 18pt;
+	mc-heading-level: 2;
+	font-family: Arial;
+}
+
+p.Header2Revised
+{
+	color: #000000;
+	font-size: 12pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	font-weight: bold;
+	mc-heading-level: 3;
+	font-family: Arial;
+}
+
+li.paragraph
+{
+	font-size: 12pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-family: 'Times New Roman';
+	color: black;
+}
+
+p.Title_1
+{
+	color: #000000;
+	margin-top: 0pt;
+	letter-spacing: -1pt;
+	font-family: 'CVS Health Sans Medium';
+	font-weight: normal;
+	font-size: 38pt;
+}
+
+p.TitleSubhead_1
+{
+	margin-top: 19pt;
+	color: black;
+	font-family: 'CVS Health Sans';
+	font-size: 16pt;
+}
+
+p.TitleSubhead_2
+{
+	margin-top: 19pt;
+	color: black;
+	font-size: 14pt;
+	font-family: 'CVS Health Sans';
+}
+
+p.paragraph_1
+{
+	font-size: 12pt;
+	font-family: 'Times New Roman';
+	color: black;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+span.eop_1
+{
+	font-family: Arial;
+}
+
+span.eop_2
+{
+	font-weight: normal;
+	color: #CC0000;
+	font-size: 18pt;
+}
+
+p.Header2Revised_1
+{
+	color: #000000;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	font-weight: bold;
+	mc-heading-level: 3;
+	font-family: 'Segoe UI';
+	font-size: 9pt;
+}
+
+span.normaltextrun_1
+{
+	font-family: Arial;
+	color: #000000;
+}
+
+li.paragraph_1
+{
+	font-size: 12pt;
+	font-family: 'Times New Roman';
+	color: black;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ul.ul_1
+{
+	padding-left: 0px;
+	list-style-type: disc;
+	margin-left: 36pt;
+}
+
+h1.Heading1
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 0pt;
+	margin-bottom: 18pt;
+	mc-heading-level: 1;
+	font-family: Arial;
+	font-weight: bold;
+	color: #CC0000;
+	font-size: 18pt;
+}
+
+a.Hyperlink
+{
+	color: #3F3F3F;
+	text-decoration: underline;
+}
+
+p.ListParagraph
+{
+	margin-top: 7pt;
+	color: #000000;
+	font-size: 12pt;
+	font-family: Arial;
+}
+
+li.ListParagraph
+{
+	margin-top: 7pt;
+	color: #000000;
+	font-size: 12pt;
+	font-family: Arial;
+}
+
+p.HTMLPreformatted
+{
+	margin-top: 0pt;
+	font-family: 'Courier New';
+	color: black;
+	font-size: 10pt;
+}
+
+span.span_1
+{
+	font-weight: bold;
+}
+
+ul.ul_2
+{
+	padding-left: 0px;
+	list-style-type: circle;
+	margin-left: 36pt;
+}
+
+span.span_2
+{
+	font-family: 'Segoe UI';
+	font-weight: bold;
+	color: #24292F;
+}
+
+p.ListParagraph_1
+{
+	margin-top: 7pt;
+	font-size: 12pt;
+	font-family: 'Segoe UI';
+	color: #24292F;
+}
+
+li.ListParagraph_1
+{
+	margin-top: 7pt;
+	font-size: 12pt;
+	font-family: 'Segoe UI';
+	color: #24292F;
+}
+
+p.ListParagraph_2
+{
+	margin-top: 7pt;
+	font-size: 12pt;
+	font-family: 'Segoe UI';
+	font-weight: bold;
+	color: #24292F;
+}
+
+li.ListParagraph_2
+{
+	margin-top: 7pt;
+	font-size: 12pt;
+	font-family: 'Segoe UI';
+	font-weight: bold;
+	color: #24292F;
+}
+
+p.p_1
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+li.li_1
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+ol.ol_1
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+	margin-left: 36pt;
+}
+
+span.span_3
+{
+	font-style: italic;
+	color: #FF0000;
+}
+
+p.p_2
+{
+	font-style: italic;
+	color: #FF0000;
+}
+
+col.col_1
+{
+	width: 36pt;
+}
+
+col.col_2
+{
+	width: 270pt;
+}
+
+col.col_3
+{
+	width: 178pt;
+}
+
+td.td_1
+{
+	background-color: #auto;
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: black;
+	border-left-style: solid;
+	border-left-width: 1pt;
+	border-left-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+td.td_2
+{
+	background-color: #auto;
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+p.HTMLPreformatted_1
+{
+	font-size: 10pt;
+	background-color: #FFFFFF;
+	margin-top: 12pt;
+	font-family: Arial;
+	color: #24292F;
+}
+
+td.td_3
+{
+	background-color: #auto;
+	border-left-style: solid;
+	border-left-width: 1pt;
+	border-left-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+p.HTMLPreformatted_2
+{
+	font-size: 10pt;
+	background-color: #FFFFFF;
+	margin-top: 12pt;
+	font-family: Consolas;
+	color: #24292F;
+}
+
+p.p_3
+{
+	margin-top: 12pt;
+}
+
+td.td_4
+{
+	background-color: #auto;
+	vertical-align: middle;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+p.p_4
+{
+	font-family: Consolas;
+	color: #24292F;
+	font-size: 10pt;
+}
+
+p.HTMLPreformatted_3
+{
+	font-family: 'Courier New';
+	color: black;
+	font-size: 10pt;
+	background-color: #FFFFFF;
+	margin-top: 12pt;
+}
+
+table.table_1
+{
+	border-collapse: collapse;
+}
+
+img.img_1
+{
+	z-index: 1;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	margin-left: 0;
+	width: 458px;
+	height: 534px;
+}
+
+p.p_5
+{
+	font-style: italic;
+	color: #FF0000;
+	font-size: 8pt;
+}
+
+span.span_4
+{
+	font-family: Consolas;
+}
+
+img.img_2
+{
+	left: 0;
+	text-align: left;
+	z-index: 6;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 36.75pt;
+	width: 345px;
+	height: 225px;
+}
+
+span.span_5
+{
+	color: black;
+}
+
+p.ListParagraph_3
+{
+	margin-top: 7pt;
+	font-size: 12pt;
+	font-family: Arial;
+	color: black;
+}
+
+li.ListParagraph_3
+{
+	margin-top: 7pt;
+	font-size: 12pt;
+	font-family: Arial;
+	color: black;
+}
+
+ul.ul_3
+{
+	padding-left: 0px;
+	list-style-type: disc;
+	margin-left: 18pt;
+}
+
+span.span_6
+{
+	font-weight: bold;
+	color: black;
+}
+
+p.p_6
+{
+	color: black;
+}
+
+img.img_3
+{
+	left: 0;
+	text-align: left;
+	z-index: 2;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 34.5pt;
+	width: 322px;
+	height: 347px;
+}
+
+col.col_4
+{
+	width: 232pt;
+}
+
+p.p_7
+{
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+p.p_8
+{
+	font-weight: bold;
+	color: black;
+}
+
+td.td_5
+{
+	background-color: #auto;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+}
+
+table.table_2
+{
+	margin-left: 30pt;
+	border-collapse: collapse;
+}
+
+img.img_4
+{
+	left: 0;
+	text-align: left;
+	z-index: 3;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 38.25pt;
+	width: 318px;
+	height: 820px;
+}
+
+col.col_5
+{
+	width: 242pt;
+}
+
+p.p_9
+{
+	text-align: center;
+}
+
+img.img_5
+{
+	left: 0;
+	text-align: left;
+	z-index: 4;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 37.5pt;
+	width: 322px;
+	height: 368px;
+}
+
+img.img_6
+{
+	z-index: 5;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	margin-left: 0;
+	width: 421px;
+	height: 270px;
+}
+
+img.img_7
+{
+	z-index: 7;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	margin-left: 0;
+	width: 346px;
+	height: 225px;
+}
+
+p.ListParagraph_4
+{
+	margin-top: 7pt;
+	color: #000000;
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+li.ListParagraph_4
+{
+	margin-top: 7pt;
+	color: #000000;
+	font-size: 12pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+p.p_10
+{
+	font-weight: bold;
+}
+
+ul.ul_4
+{
+	padding-left: 0px;
+	list-style-type: disc;
+	margin-left: 22pt;
+}
+
+span.span_7
+{
+	font-family: 'Miriam Fixed';
+}
+
+span.span_8
+{
+	font-style: italic;
+}
+
+p.p_11
+{
+	background-color: #FFFF00;
+}
+
+p.p_12
+{
+	font-family: 'CVS Health Sans';
+}
+
+div.div_1
+{
+	margin-left: 63.2pt;
+	margin-top: 39.4pt;
+	width: 461.8pt;
+	height: 23.75pt;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: page;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: page;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	v-text-anchor: top;
+}
+
+span.span_9
+{
+	font-size: 10pt;
+}
+
+p.p_13
+{
+	margin-left: 5pt;
+	margin-right: 5pt;
+	margin-top: 0pt;
+	text-align: justify;
+}
+
+div.div_2
+{
+	left: 0;
+	text-align: left;
+	margin-left: 509.75pt;
+	width: 14.4pt;
+	height: 14.25pt;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: page;
+	v-text-anchor: bottom;
+	margin-top: 0pt;
+}
+
+span.span_10
+{
+	font-size: 6pt;
+}
+
+div.div_3
+{
+	left: 0;
+	text-align: left;
+	margin-left: 64.1pt;
+	margin-top: 756pt;
+	width: 3in;
+	height: 12.25pt;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: page;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: page;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	v-text-anchor: top;
+}
+

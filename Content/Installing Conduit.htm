@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Installing Conduit|Frequently asked questions">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" /><title>Installing Conduit</title>
+        <link href="Resources/Stylesheets/A&amp;BC Conduit Quick Start Guide v1.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+    </head>
+    <body>
+        <h1 class="Heading1"><a name="_Toc133501941"></a>Installing Conduit</h1>
+        <p>Before installing Conduit, make sure you understand the basics of and become familiar with Google Cloud Platform. For information needed to get started with GCP, refer to <a href="https://github.aetna.com/abc-cloud/abc-gcp-onboarding/blob/master/getting-started-with-gcp.md" class="Hyperlink">Getting Started with GCP</a>.</p>
+        <p>Based on your scenario, installing Conduit may require one-time preparation. Before you get started, refer to the prerequisites below.</p>
+        <p>&#160;</p>
+        <h2><a name="_Toc133501943"></a>Permissions</h2>
+        <p class="p_2"><span class="span_3">Default permissions are turned on in Vertex AI. All permissions should be defaulted correctly. (Check before shipping to make sure this is true. If not, amend this section to explain what is required.)</span>
+        </p>
+        <p>&#160;</p>
+        <h2><a name="_Toc133501944"></a>Installation steps</h2>
+        <p>In a command window on your notebook, enter the following commands:</p>
+        <p>&#160;</p>
+        <table class="table_1">
+            <col class="col_1" />
+            <col class="col_2" />
+            <col class="col_3" />
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p>Step</p>
+                    </td>
+                    <td class="td_2">
+                        <p>Command</p>
+                    </td>
+                    <td class="td_2">
+                        <p>Result</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_3">
+                        <p class="HTMLPreformatted_1">1.</p>
+                    </td>
+                    <td class="td_4">
+                        <p class="HTMLPreformatted_2">git clone git@github.aetna.com:dso/conduit.git</p>
+                        <p class="p_3">&#160;</p>
+                    </td>
+                    <td class="td_4">
+                        <p class="p_3">The Conduit GitHub repo is cloned to your notebook.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_3">
+                        <p class="HTMLPreformatted_1">2.</p>
+                    </td>
+                    <td class="td_4">
+                        <p class="HTMLPreformatted_2">python conduit/setup.py</p>
+                        <p class="p_4">&#160;</p>
+                    </td>
+                    <td class="td_4">
+                        <p>The Conduit terminal user interface (TUI) program is run. Directory structure is created.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_3">
+                        <p class="HTMLPreformatted_1">3.</p>
+                    </td>
+                    <td class="td_4">
+                        <p class="HTMLPreformatted_2">conduit</p>
+                        <p class="HTMLPreformatted_3">&#160;</p>
+                    </td>
+                    <td class="td_4">
+                        <p>The Conduit TUI is launched in the command window.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Once the Conduit program launches, follow the instructions below to use Conduit to build a pipeline.</p>
+        <p>&#160;</p>
+        <h2><a name="_Toc133501945"></a>Directory structure</h2>
+        <p>As a result of the installation process explained above, the following directory structure has been created in the GitHub repository:</p>
+        <p class="p_5">
+            <img src="Resources/Images/A&amp;BC Conduit Quick Start Guide v1/Installing Conduit_458x534.png" class="img_1" style="width: 458;height: 534;" />
+            <br />
+        </p>
+        <h1 class="Heading1"><a name="_Toc133501946"></a>Creating a pipeline</h1>
+        <p>This section explains how to use the Conduit terminal user interface to assemble your pipeline, using templated files and inputs you provide. Once the pipeline is assembled, it is added to the GitHub repository referred to in the Prerequisites section above.</p>
+        <p>&#160;</p>
+        <h2><a name="_Toc133501947"></a>Quickstart</h2>
+        <p>Follow these instructions to use the Conduit interface to create a pipeline:</p>
+        <ol start="1" class="ol_1">
+            <li class="ListParagraph" value="1">
+                <p class="ListParagraph">Enter <span class="span_4">conduit</span> in the command window to launch Conduit.</p>
+                <p>
+                    <img src="Resources/Images/A&amp;BC Conduit Quick Start Guide v1/Installing Conduit_1_345x225.png" alt="Graphical user interface, text&#xA;&#xA;Description automatically generated" class="img_2" style="width: 345;height: 225;" />
+                    <br />
+                </p>
+            </li>
+            <li class="ListParagraph_3" value="2">
+                <p class="ListParagraph_3"><span class="span_5">Outside of the Conduit interface, navigate to the files outlined below, open, and edit to enter the required information, as dictated by the comments in the files:</span>
+                </p>
+                <ul class="ul_3">
+                    <li class="ListParagraph_3">
+                        <p class="ListParagraph_3"><span class="span_5">src\feature_names.json </span>
+                        </p>
+                    </li>
+                    <li class="ListParagraph_3">
+                        <p class="ListParagraph_3"><span class="span_5">src\batch_prediction_data.sql</span>
+                        </p>
+                    </li>
+                    <li class="ListParagraph_3">
+                        <p class="ListParagraph_3"><span class="span_5">src\train_data.sql</span>
+                        </p>
+                    </li>
+                    <li class="ListParagraph_3">
+                        <p class="ListParagraph_3"><span class="span_5">src\ground_truth_data.sql</span>
+                        </p>
+                    </li>
+                    <li class="ListParagraph_3">
+                        <p class="ListParagraph_3">custom_container\training\train.py</p>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <ol start="3" class="ol_1">
+            <li class="ListParagraph_3" value="3">
+                <p class="ListParagraph_3">Save the files in the existing location, with the existing names. </p>
+            </li>
+            <li class="ListParagraph_3" value="4">
+                <p class="ListParagraph_3"><span class="span_5">In the Conduit interface in the command window, click </span><span class="span_6">Create Pipeline</span><span class="span_5"> to begin.</span>
+                </p>
+                <p class="p_6"><span class="span_6">Note:</span><span class="span_5"> As you move through the Conduit interface, inputs are saved at regular intervals. If you must abandon the process (use </span><span class="span_6">Q</span><span class="span_5"> to quit), you can relaunch Conduit and click </span><span class="span_6">Resume</span><span class="span_5"> on the first screen to pick up where you left off.</span>
+                </p>
+            </li>
+            <li class="ListParagraph_3" value="5">
+                <p class="ListParagraph_3"><span class="span_5">Proceed through the fields, supplying the necessary information, as explained below:</span>
+                </p>
+            </li>
+            <li class="ListParagraph_3" value="6">
+                <p class="ListParagraph_3"><span class="span_5">To set up the directory for the pipeline:<br /></span>
+                </p>
+                <p class="p_6">
+                    <img src="Resources/Images/A&amp;BC Conduit Quick Start Guide v1/Installing Conduit_2_322x347.png" class="img_3" style="width: 322;height: 347;" />
+                    <br /> </p>
+            </li>
+        </ol>
+        <table class="table_2">
+            <col class="col_4" />
+            <col class="col_4" />
+            <tr>
+                <td colspan="2" class="td_1">
+                    <p class="p_7">Directory Setup</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_8">Question</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_8">Format of information</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the pipeline name?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6">The name of the pipeline to be created. String: restricted characters and 50-character limit</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">How would you describe the pipeline?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">A meaningful description of the pipeline. String: restricted characters and 500-character limit</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">Are you using the Feature Store?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Are you using features stored in Feature Store? Checkbox: yes/no</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the tenant?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The name of the tenant. <br />String</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is your username?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Your username.<br />String</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is your AID? </p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Your AID (Aetna identification number).<br />String</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <ol start="7" class="ol_1">
+            <li class="ListParagraph_3" value="7">
+                <p class="ListParagraph_3"><span class="span_5">To configure the pipeline for training:<br /></span>
+                </p>
+                <p>
+                    <img src="Resources/Images/A&amp;BC Conduit Quick Start Guide v1/Installing Conduit_3_318x820.png" alt="Graphical user interface, application&#xA;&#xA;Description automatically generated" class="img_4" style="width: 318;height: 820;" />
+                    <br />
+                </p>
+            </li>
+        </ol>
+        <table class="table_1">
+            <col class="col_5" />
+            <col class="col_5" />
+            <tr>
+                <td colspan="2" class="td_1">
+                    <p class="p_9"><span class="span_6">Configure Pipeline: TRAINING</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_8">Question</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_8">Format of information</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">When is the training start date?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The start date for training.<br />Date: mm/dd/yyyy</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the model deploy minimum replica count?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The minimum allowed replica count.<br />Integer</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the training schedule frequency?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The number of days for the training schedule frequency.<br />Integer</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the model deploy machine type?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Select from dropdown.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the explanation method?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6">Select from listed options.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the target metric?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6">String</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the target metric threshold?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Enter a value from 0-1.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">Is there a deploy endpoint?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6">Select Yes or No</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What email will be monitoring the model endpoint?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6">Enter a valid email address.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the model endpoint monitoring sample rate?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6">Enter the sample rate as a value from 0-1.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What are the model endpoint monitoring interval hours?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The interval hours.<br />Integer great than 0</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6"><span class="span_5">What is the path to the model endpoint monitoring skew thresholds?</span>
+                    </p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Enter a valid path.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6"><span class="span_5">What is the path to model endpoint monitoring attribute skew thresholds?</span>
+                    </p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Enter a valid path.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <ol start="8" class="ol_1">
+            <li class="ListParagraph_3" value="8">
+                <p class="ListParagraph_3">To configure the pipeline for batch:</p>
+                <p class="p_6">
+                    <img src="Resources/Images/A&amp;BC Conduit Quick Start Guide v1/Installing Conduit_4_322x368.png" alt="Graphical user interface, application&#xA;&#xA;Description automatically generated" class="img_5" style="width: 322;height: 368;" />
+                    <br />
+                </p>
+            </li>
+        </ol>
+        <table class="table_1">
+            <col class="col_5" />
+            <col class="col_5" />
+            <tr>
+                <td colspan="2" class="td_1">
+                    <p class="p_9"><span class="span_6">Configure Pipeline: BATCH</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_8">Question</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_8">Format of information</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6"><span class="span_5">What is the ground truths predictions join strategy?</span>
+                    </p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Select: Left, Inner, or Right</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6"><span class="span_5">When is the prediction start date?</span>
+                    </p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The prediction start date.<br />Date: mm/dd/yyyy</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6"><span class="span_5">What is the prediction schedule frequency?</span>
+                    </p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The frequency as number of days.<br />Integer: number of days</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the prediction data window length?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">The length of the prediction data window.<br />Integer: number of days</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_6">What is the entity ID Col?</p>
+                </td>
+                <td class="td_5">
+                    <p class="p_6"><span class="span_5">Select a Col as the entity ID col</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <ol start="9" class="ol_1">
+            <li class="ListParagraph_3" value="9">
+                <p class="ListParagraph_3"><span class="span_5">When finished with the input process, click </span><span class="span_6">Build</span><span class="span_5">.</span>
+                </p>
+            </li>
+        </ol>
+        <p class="p_6"><span class="span_6">Note:</span> <span class="span_5">You can click </span><span class="span_6">Cancel</span><span class="span_5"> to cancel the process and reset all fields.</span></p>
+        <p class="p_6">At any point, you can scroll back to a previous question and change your input values.</p>
+        <p class="p_6">&#160;</p>
+        <h2><a name="_Toc133501948"></a>What happens next</h2>
+        <p class="p_6"><span class="span_5">Conduit </span>configure the ML pipeline, trains the models, and executes batch processes<span class="span_5"> using the information provided. You may see this screen before the final screen:</span></p>
+        <p class="p_6">
+            <img src="Resources/Images/A&amp;BC Conduit Quick Start Guide v1/Installing Conduit_5_421x270.png" class="img_6" style="width: 421;height: 270;" />
+            <br />
+        </p>
+        <p class="p_6">
+            <img src="Resources/Images/A&amp;BC Conduit Quick Start Guide v1/Installing Conduit_6_346x225.png" alt="Graphical user interface, website&#xA;&#xA;Description automatically generated" class="img_7" style="width: 346;height: 225;" />
+            <br />
+        </p>
+        <p class="p_6"><span class="span_5">If an error occurs, you are notified. When the build is complete, the pipeline is stored in the Conduit GitHub repository you created for the project. </span>
+        </p>
+        <p class="p_6"><span class="span_5">Click </span><span class="span_6">Close</span><span class="span_5"> to exit Conduit. (You can click back to edit to return to the questions if necessary.)</span>
+        </p>
+        <h1 class="Heading1">Create a PR, merge, and deploy</h1>
+        <p>At this point, to deploy your model, do the following:</p>
+        <ol>
+            <li value="1">
+                <p>Create a pull request:</p>
+                <ol style="list-style-type: lower-alpha;">
+                    <li value="1">
+                        <p>In GitHub, navigate to the main page of the repository you created at the start of this process.</p>
+                    </li>
+                    <li value="2">
+                        <p>	In the "Branch" menu, choose the branch that contains your commits.</p>
+                    </li>
+                    <li value="3">
+                        <p>Above the list of files, in the yellow banner, click Compare &amp; pull request to create a pull request for the associated branch.</p>
+                    </li>
+                    <li value="4">
+                        <p>Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.</p>
+                    </li>
+                    <li value="5">
+                        <p>Type a title and description for your pull request.</p>
+                    </li>
+                </ol>
+            </li>
+            <li value="2">
+                <p> When the pull request is approved, merge the your branch.</p>
+            </li>
+            <li value="3">
+                <p>Deploy the pipeline to Vertex AI.</p>
+            </li>
+        </ol>
+        <p class="p_6">&#160;</p>
+        <h1 class="Heading1"><a name="_Toc133501949"></a>Errors and actions</h1>
+        <p>During the process of answering Conduit questions, you may encounter an error. If an error message pops up, read the message for actions to take. For your convenience, below is a list of potential errors and actions to take: </p>
+        <table style="width: 100%;">
+            <col style="width: 366px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td><span class="span_1">Error</span>
+                    </td>
+                    <td><span class="span_1">Action</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="ListParagraph"> Files not found</p>
+                    </td>
+                    <td>
+                        <p class="ListParagraph_4" style="text-align: left;font-weight: normal;">Make sure templated files were downloaded to the proper location, populated with the necessary information, and saved to the correct location.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Permission conflicts detected</td>
+                    <td>Confirm that required permissions are granted</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Out-of-range, null, or invalid characters entered in fields</td>
+                    <td>Verify that all text is entered correctly.</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Feature Store files are invalid</td>
+                    <td>Address the errors either in file names or in file contents. Retry the validation process.</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>AID is invalid</td>
+                    <td>Follow on-screen actions to resolve the problem.</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td> ssh: connect to host github.aetna.com port 22: Connection timed out<p>fatal: Could not read from remote repository.</p></td>
+                    <td>Need to install ssh proxy script before making git calls in GCP (see here for more info: https://github.aetna.com/io-cloud/gcp-utils)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="p_10">&#160;</p>
+        <p class="Heading1Revised"><a name="_Toc133501950"></a>What Conduit is doing</p>
+        <p class="p_6">After you click <span class="span_1">Build</span>, behind the scenes Conduit performs the following actions:</p>
+        <ul class="ul_4">
+            <li class="ListParagraph">
+                <p class="ListParagraph">Generates a Vertex Pipeline configuration file that includes:</p>
+                <ul class="ul_2">
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">GCP information (e.g., Project, Bucket, Service Account, etc.)</p>
+                    </li>
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">Model information (e.g., model name, model description, target metric, etc.)</p>
+                    </li>
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">Pipeline parameters (e.g., scheduling instructions, endpoint creation, etc.)</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="ListParagraph">
+                <p class="ListParagraph">Generates a production-ready Vertex Pipeline complete with:</p>
+                <ul class="ul_2">
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">Model monitoring (e.g., feature drift/skew detection and label drift detection)</p>
+                    </li>
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">Continual learning (i.e., OOS feedback loop that retrains the model when performance degrades)</p>
+                    </li>
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">CI/CD integration with necessary Jenkins files</p>
+                    </li>
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">Model Registry integration for tracking model versions</p>
+                    </li>
+                    <li class="ListParagraph">
+                        <p class="ListParagraph">Artifact Registry integration for tracking containers, pipelines, endpoints, etc.</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="ListParagraph">
+                <p class="ListParagraph">Generates a Cloud Composer pipeline</p>
+            </li>
+            <li class="ListParagraph">
+                <p class="ListParagraph">Stages a pull request (PR) that is ready to be committed to the main branch for deployment</p>
+            </li>
+        </ul>
+        <p>&#160;</p>
+        <p class="Heading1Revised"><a name="_Toc133501951"></a>Getting help and providing feedback</p>
+        <table style="width: 100%;">
+            <col style="width: 247px;" />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="font-weight: bold;">What do you want to do?</td>
+                    <td style="font-weight: bold;">For example</td>
+                    <td style="font-weight: bold;">How to let us know</td>
+                </tr>
+                <tr>
+                    <td>Ask a general question about using Conduit</td>
+                    <td>How do I edit the files?</td>
+                    <td>Ask a question on Stack Overflow (after searching for an existing answer)</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Report a bug</td>
+                    <td>When running code, I receive an error.</td>
+                    <td>Raise a GitHub issue in the Conduit repository.</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                    <td>&#160;</td>
+                </tr>
+                <tr>
+                    <td>Submit a request for additional functionality</td>
+                    <td>It would be great if Conduit could &lt;do something&gt; because &lt;it solves this problem&gt;</td>
+                    <td>Email us at EnterpriseMLPlatform@aetna.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h1 class="Heading1"><a name="_Toc133501953"></a>Frequently asked questions</h1>
+        <h3><a name="_Toc133501954"></a>How does Conduit help in configuring ML pipelines, training, and batch processes?&#160;</h3>
+        <p>Conduit’s terminal user interface (TUI) guides users through the entire process of configuring their ML pipeline, training their models, and executing batch processes. It simplifies these tasks by taking the minimum number of user inputs required to deploy and manage a pipeline on Vertex AI.&#160;</p>
+        <p class="p_10">&#160;</p>
+        <h3><a name="_Toc133501955"></a>Will pipelines generated by Conduit leverage Vertex AI’s visualization and monitoring capabilities? &#160;</h3>
+        <p>Yes. Conduit generated pipelines can be visualized, observed, and monitored in the Vertex AI <a href="https://console.cloud.google.com/vertex-ai/pipelines/" class="Hyperlink">console</a>.  &#160;</p>
+        <p>&#160;</p>
+        <h3><a name="_Toc133501956"></a>How does Conduit improve reproducibility and collaboration?</h3>
+        <p>Conduit stores all necessary information, including Python library requirements, in a Docker file. This approach ensures that all team members can access and use the same environment, making it easy to reproduce results and collaborate on ML projects.</p>
+        <p>By using Conduit to create Vertex Pipelines, your ML pipeline will be fully reproducible by design. Models are stored and versioned in the Model Registry and all artifacts (e.g., containers, pipelines, etc.) are stored in the Artifact Registry. Along with the code in your repo, this will promote transparency and discoverability. Additionally, training data snapshots are stored in GCS and all your training and prediction outputs are captured in standardized schemas in Big Query which can be readily queried for downstream consumption and/or reporting.</p>
+        <p>&#160;</p>
+        <h3><a name="_Toc133501957"></a>How does Conduit handle cost center and resource accounting?</h3>
+        <p>While using Conduit, or more generally GCP, resource usage is tracked at the tenant level so that costs can be appropriately compartmentalized and shared (e.g., transferred out to business partners).</p>
+        <p>&#160;</p>
+        <h3><a name="_Toc133501958"></a>Which programming languages does Conduit support for building ML models?</h3>
+        <p>Currently, Conduit supports only Python for building ML models. In the future, R will be supported as well.</p>
+        <p>&#160;</p>
+        <h3><a name="_Toc133501959"></a>Will all of Vertex AI’s services be fully enabled in DEV?</h3>
+        <p>No, the intention is to focus on unincumbered <span class="span_8">development</span> in the lower environment whereas the higher environments (e.g., TEST and PROD) are oriented toward ML pipeline orchestration.</p>
+        <p>&#160;</p>
+        <h3><a name="_Toc133501960"></a>Can users looking for a custom experience directly leverage the KFP and/or TFX APIs to create their own pipelines?</h3>
+        <p>No, currently Vertex AI services (apart from Vertex managed notebooks) are not enabled in the DEV environments by design. This is to ensure that maintained consistency for all of production-deployed ML pipelines from compliance, governance, reliability, and observability perspectives. If your ML pipelines pattern(s) fall outside of what is currently supported in Conduit, please reach out to EnterpriseMLPlatform@aetna.com.</p>
+        <p>&#160;</p>
+        <h3><a name="_Toc133501963"></a>What future types of functionalities are on the Conduit roadmap?</h3>
+        <p>Refer to the <a href="https://github.aetna.com/dso/awesome-gcp-references/blob/main/slides/CVSH_ML_Platform_Roadmap.pdf" class="Hyperlink">ML Platform Roadmap</a>.</p>
+    </body>
+</html>
